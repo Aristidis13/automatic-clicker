@@ -1,0 +1,8 @@
+{
+  "name": "clicker",
+  "version": "1.0.0",
+  "description": "An automatic screen clicker",
+  "main": "index.js",
+  "author": "Aris Barlos <aris13pat@hotmail.com>",
+  "license": "MIT"
+}
