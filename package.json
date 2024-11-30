@@ -1,8 +1,16 @@
 {
   "name": "clicker",
+  "type": "module",
   "version": "1.0.0",
   "description": "An automatic screen clicker",
   "main": "index.js",
   "author": "Aris Barlos <aris13pat@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@nut-tree-fork/nut-js": "^4.2.2",
+    "express": "^4.21.1"
+  }
 }
