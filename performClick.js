@@ -1,4 +1,5 @@
 import { mouse, Button } from "@nut-tree-fork/nut-js";
+import { log } from "./common.js";
 
 function showTime() {
     const now = new Date().toLocaleTimeString('gr-GR');
@@ -7,7 +8,7 @@ function showTime() {
 
 // Function to perform a mouse click
 async function performClick() {
-    console.log(showTime()+': ' +"Clicking...");
+    log('Clicking...');
     await mouse.click(Button.LEFT); // Simulates a left mouse click
 }
 // Schedule the clicker to run every 10 minutes
